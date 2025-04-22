@@ -1,5 +1,5 @@
 ## Numix
-##### A modern flat theme with a combination of light and dark elements. It supports GNOME, Unity, Xfce and Openbox.
+##### A classic flat theme with calm and dark elements. It supports GNOME (by extension Cinnamon), Xfce and Openbox.
 [![By The Numix Project](https://img.shields.io/badge/By-The%20Numix%20Project-f0544c.svg?style=flat-square)](https://numixproject.org/) &nbsp;[![Circle CI](https://img.shields.io/circleci/project/numixproject/numix-gtk-theme/master.svg?circle-token=b14acf911433d315298235b0c2fbf7b2670a92a8&maxAge=3600&style=flat-square)](https://circleci.com/gh/numixproject/numix-gtk-theme/tree/master) &nbsp;[![GitHub release](https://img.shields.io/github/release/numixproject/numix-gtk-theme.svg?maxAge=3600&style=flat-square)](https://github.com/numixproject/numix-gtk-theme/releases/latest) &nbsp;![Supports GTK+ 3.18](https://img.shields.io/badge/GTK%2B-3.18-4a90d9.svg?style=flat-square) &nbsp;![Supports GTK+ 3.24](https://img.shields.io/badge/GTK%2B-3.24-4a90d9.svg?style=flat-square)
 
 ## Install It
@@ -40,12 +40,17 @@ gsettings set org.gnome.desktop.interface gtk-theme "Numix"
 gsettings set org.gnome.desktop.wm.preferences theme "Numix"
 ```
 
+To set the theme in Cinnamon, run Themes from the menu and set it there.
+You might need to click "Advanced settings..."
+
 To set the theme in Xfce, run the following commands in Terminal,
 
 ```sh
 xfconf-query -c xsettings -p /Net/ThemeName -s "Numix"
 xfconf-query -c xfwm4 -p /general/theme -s "Numix"
 ```
+
+You can also run Appearance from the Applications menu and set it from there.
 
 In Openbox you can set the theme with [ObConf](http://openbox.org/wiki/ObConf:About) tool. Alternatively, you can set the theme by changing the `<name> `key value to `Numix` in the `<theme>` section of your rc.xml file.
 
