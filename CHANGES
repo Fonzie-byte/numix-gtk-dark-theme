@@ -1,3 +1,5 @@
+-------------->>>> 2.6.8 <<<<-------------------------->>>> 2.6.8 <<<<-------------------------->>>> 2.6.8 <<<<--------------
+[2024-04-22 22:26:17 +0200]  Force dark theme in all cases, as modern GTK does not support this ..    Fonzie-byte  {ad4b345c}
 -------------->>>> 2.6.7 <<<<-------------------------->>>> 2.6.7 <<<<-------------------------->>>> 2.6.7 <<<<--------------
 [2017-10-14 13:52:32 +0530]  Gtk-3.20: Add message summary and popover-list styles for geary         Khurshid Alam  {fd8e657}
 [2017-10-14 13:49:06 +0530]  Update readme for Ubuntu and Debian                                     Khurshid Alam  {5d031a3}
